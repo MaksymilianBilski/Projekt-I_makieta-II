@@ -16,13 +16,27 @@
     position: relative;
 }
 
-.advantages__box::after {
-    content: url(../images/advantages/adv-svg1.svg);
+.advantages__text::after {
+    content: '';
     height: 66px;
     width: 2px;
     background-color: #fff;
     position: absolute;
-    left: 98px;
+    left: 18px;
+    z-index: -1;
+}
+
+.advantages__box--1::after {
+    content: url(../images/advantages/adv-svg1.svg);
+}
+.advantages__box--2::after {
+    content: url(../images/advantages/adv-svg2.svg);
+}
+.advantages__box--3::after {
+    content: url(../images/advantages/adv-svg3.svg);
+    position: absolute;
+    z-index: 2;
+    
 }
 
 .advantages__img {
