@@ -2,12 +2,12 @@
     margin-left: 20px;
 }
 
-.hero-left {
+.hero__left {
     display: flex;
     flex-direction: column;
 }
 
-.hero-title {
+.hero__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -20,7 +20,7 @@
     width: 460px;
 }
 
-.hero-text {
+.hero__text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -33,30 +33,29 @@
     color: #B9B9B9;
 }
 
-.hero-text__div {
+.hero__text--box {
     display: flex;
     flex-direction: row;
 }
 
-.hero-text__guarantee {
+.hero__text--guarantee {
     color: #111518;
     margin: 0;
 }
 
-.hero-text__points {
+.hero__text--points {
     color: #FF6B09;
     margin: 0;
 }
 
-.hero-button {
+.hero__button {
     width: 354px;
     height: 70px;
     background-color: #FF6B09;
     border: none;
-
 }
 
-.hero-button__anchor {
+.hero__button--anchor {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -65,12 +64,10 @@
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 100%;
-    height: 100%;
     cursor: pointer;
 }
 
-.hero-img {
+.hero__img {
     width: 720px;
     height: 720px;
     position: relative;
@@ -78,7 +75,7 @@
     left: 55vw;
 }
 
-.hero-img__bg {
+.hero__img--bg {
     width: 840px;
     height: 602px;
     position: absolute;
