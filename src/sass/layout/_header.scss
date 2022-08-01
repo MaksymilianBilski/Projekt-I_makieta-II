@@ -1,10 +1,10 @@
-.header-top {
+.header__section {
     display: flex;
     flex-direction: row;
     padding-left: 10.83vw;
 }
 
-.header-top__logo {
+.header__logo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,12 +13,7 @@
     width: 130px;
 }
 
-.top-logo__up {
-    display: flex;
-    align-items: center;
-}
-
-.header-top__hell {
+.header__hell {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -29,13 +24,13 @@
     margin: 43px 0 0 0;
 }
 
-.header-top__flame {
+.header__flame {
     width: 22px;
     height: 30px;
     margin: 43px 5.39px 0 4.06px;
 }
 
-.header-top__en {
+.header__en {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -47,7 +42,7 @@
     margin: 43px 0 0 0;
 }
 
-.header-top_hellish {
+.header__hellish {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -59,7 +54,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-top__english {
+.header__english {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
