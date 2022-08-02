@@ -1,0 +1,27 @@
+.grid-box {
+    width: 79%;
+    height: auto;
+    margin: 0 auto;
+    counter-reset: sectionNum;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.grid__item {
+    width: 30%;
+    list-style-position: inside;
+    counter-increment: sectionNum;
+    list-style-type: none;
+}
+
+.grid__item:nth-child(1){
+    margin-left: 5%;
+}
+
+.grid__item:nth-child(4) {
+    margin-left: 5%;
+}
