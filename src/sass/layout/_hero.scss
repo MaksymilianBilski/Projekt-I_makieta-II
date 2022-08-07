@@ -1,9 +1,14 @@
 .hero {
     margin-left: 20px;
+    position: relative;
 }
 
 .hero::after{
-    content: url('../images/header/header-shape.png');
+    content: url('../../src/images/header/header-shape.png');
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: 100%;
 }
 
 .hero__left {
