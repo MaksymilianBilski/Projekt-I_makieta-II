@@ -2,9 +2,15 @@
     margin-left: 20px;
 }
 
+.hero::after{
+    content: url('../src/images/header/header-shape');
+}
+
 .hero__left {
     display: flex;
     flex-direction: column;
+    margin-top: 137px;
+    margin-left: 9%;
 }
 
 .hero__title {
@@ -18,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 460px;
+    margin-bottom: 40px;
 }
 
 .hero__text {
@@ -31,11 +38,13 @@
     align-items: flex-start;
     letter-spacing: 0.08em;
     color: #B9B9B9;
+    margin-bottom: 30px;
 }
 
 .hero__text--box {
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 .hero__text--guarantee {
@@ -53,6 +62,7 @@
     height: 70px;
     background-color: #FF6B09;
     border: none;
+    margin-left: 9%;
 }
 
 .hero__button--anchor {
